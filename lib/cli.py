@@ -1,4 +1,3 @@
-
 from helpers import (
     exit_program,
     list_departments,
@@ -50,7 +49,7 @@ def main():
         elif choice == "13":
             list_department_employees()
         else:
-            print("Invalid choice")
+            print("Invalid choice. Please select a valid option.")
 
 
 def menu():
